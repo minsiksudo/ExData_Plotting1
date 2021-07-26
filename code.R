@@ -42,3 +42,5 @@ lines(data$dtimes,data$Sub_metering_2, type = "l", col=2)
 lines(data$dtimes, data$Sub_metering_3, type = "l", col=3)
 legend("topright", legend=c("Sub metering 1","Sub metering 2","Sub metering 3"),col=c(1,2,3), lty=1:2, cex=0.8)
 dev.off()
+
+# Plot 4 was edited
